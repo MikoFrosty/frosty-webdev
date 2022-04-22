@@ -112,10 +112,25 @@ body {
         border: none;
         max-height: 275px;
     }
+    #navbar ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+      height: 100%;
+    }
     #main-doc {
-      margin: 275px 0px 0px 0px;
+      margin: 245px 0px 0px 0px;
     }
     footer {
         height: auto;
+    }
+  }
+  @media only screen and (max-width: 365px) {
+    #navbar a {
+      padding: 10px;
+    }
+    ul {
+      padding-inline-start: 10px;
     }
   }
