@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frosty's Web Development Resources</title>
-    <link rel="stylesheet" href="./resources/css/normalize.css">
-    <link rel="stylesheet" href="./resources/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./resources/css/normalize.css" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
     <nav id="navbar">
-        <header>Categories</header>
-        <ul>
+      <header>Webdev Resources</header>
+      <ul>
         <li>
           <a class="nav-link" href="#Introduction">Introduction</a>
         </li>
@@ -22,90 +23,277 @@
           <a class="nav-link" href="#Font">Font</a>
         </li>
         <li>
-          <a class="nav-link" href="#Hello_world">Hello world</a>
+          <a class="nav-link" href="#Image">Image</a>
         </li>
         <li>
-          <a class="nav-link" href="#Variables">Variables</a>
+          <a class="nav-link" href="#Layout/design">Layout/Design</a>
         </li>
         <li>
-          <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+          <a class="nav-link" href="#HTML/CSS">HTML/CSS</a>
         </li>
         <li>
-          <a class="nav-link" href="#Variable_scope">Variable scope</a>
+          <a class="nav-link" href="#Scripting/coding">Scripting/Coding</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Other">Other</a>
         </li>
       </ul>
     </nav>
     <main id="main-doc">
-      
+      <!-- Introduction Section -->
       <section class="main-section" id="Introduction">
         <h1>Frosty's Web Development Resources</h1>
         <header>Introduction</header>
         <p>
-          This is a collection of resources that I have found useful in my web development journey.
+          This is a collection of resources that I have found useful in my web
+          development journey.
         </p>
         <p>
-            My hope is that this list will grow over time to become a useful tool for anyone who is interested in web development,
-            whether it be as a hobby or professionaly.
+          My hope is that this list will grow over time to become a useful tool
+          for anyone who is interested in web development, whether it be as a
+          hobby or professionaly.
         </p>
       </section>
+      <!-- Color Section -->
       <section class="main-section" id="Color">
         <header>Color</header>
-        <p>This section is dedicated to the eyes and everything that pleases them -- more specifically, color.</p>
         <ul>
-          <li><a href="http://www.coolors.co">Coolors.co</a> - A website for creating color palettes.</li>
-          
-          <li>Color site 2...</li>
-          <li>Color site 3...</li>
+          <li>
+            <h3>
+              <a href="http://www.coolors.co" target="_blank">Coolors.co</a>
+            </h3>
+            <p>
+              - Create custom color palettes or search through lists of
+              suggested and trending palettes.<br />
+              - Allows for palettes to be saved for later after creating a free
+              acount.<br />
+              - Very intuitive and easy to use.
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="http://brandcolors.net" target="_blank"
+                >BrandColors.net</a
+              >
+            </h3>
+            <p>
+              - An exhaustive collection of color palettes for most major
+              brands.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://color.cloudflare.design/" target="_blank"
+                >Color.cloudflare.design</a
+              >
+            </h3>
+            <p>
+              - A fast way to demo your color palette to test for contrast on
+              different designs, fonts, and icons.<br />
+            </p>
+          </li>
         </ul>
       </section>
+      <!-- Font Section -->
       <section class="main-section" id="Font">
         <header>Font</header>
-        <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
-        <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
-        <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
+        <ul>
+          <li>
+            <h3>
+              <a href="https://fonts.google.com" target="_blank"
+                >Google Fonts</a
+              >
+            </h3>
+            <p>
+              - A great resource for finding fonts that you can use in your
+              projects.<br />
+              - Allows for fonts to be saved for later.<br />
+              - Very intuitive and easy to use.
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://icons8.com/line-awesome" target="_blank"
+                >Line Awesome</a
+              >
+            </h3>
+            <p>
+              - Font level icons that you can use in your projects.<br />
+              - Easy CSS integration.
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a
+                href="https://heyreliable.com/ultimate-google-font-pairings/"
+                target="_blank"
+                >Ultimate Google Font Pairings</a
+              >
+            </h3>
+            <p>- An article that shows you some great font pairings ideas.</p>
+          </li>
+        </ul>
       </section>
-      <section class="main-section" id="Hello_world">
-        <header>Hello world</header>
-        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
-        <code>function greetMe(yourName) { alert("Hello " + yourName); }
-          <br>
-greetMe("World");</code>
-        <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+      <!-- Image Section -->
+      <section class="main-section" id="Image">
+        <header>Image</header>
+        <ul>
+          <li>
+            <h3><a href="https://unsplash.com" target="_blank">Unsplash</a></h3>
+            <p>
+              - A great resource for finding free images.<br />
+              - Allows for images to be saved for later.<br />
+            </p>
+          </li>
+          <li>
+            <h3><a href="https://canva.com" target="_blank">Canva</a></h3>
+            <p>- A great resource for creating and editing images.<br /></p>
+          </li>
+          <li>
+            <h3><a href="https://remove.bg" target="_blank">Remove.bg</a></h3>
+            <p>
+              - A great resource for removing backgrounds from photos.<br />
+            </p>
+          </li>
+        </ul>
       </section>
-      <section class="main-section" id="Variables">
-        <header>Variables</header>
-        <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
-        <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
-        <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+      <!-- Layout & Design Section -->
+      <section class="main-section" id="Layout/design">
+        <header>Layout & Design</header>
+        <ul>
+          <li>
+            <h3>
+              <a href="https://www.uisual.com" target="_blank">Uisual.com</a>
+            </h3>
+            <p>
+              - A small selection of basic free templates that look very modern
+              and clean.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a
+                href="https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html"
+                target="_blank"
+                >Mobile/Desktop Website Font Size Guidelines</a
+              >
+            </h3>
+            <p>
+              - An interesting article on best practices for font sizes with
+              special regard for responsiveness.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://m3.material.io/" target="_blank"
+                >M3.Material.io</a
+              >
+            </h3>
+            <p>
+              - Google's latest design specification standards for how devices
+              and apps should look and operate.<br />
+            </p>
+          </li>
+        </ul>
       </section>
-      <section class="main-section" id="Declaring_variables">
-        <header>Declaring variables</header>
-        <p>You can declare a variable in three ways:</p>
-        <p>With the keyword var. For example,</p>
-        <code>var x = 42.</code>
-        <p>This syntax can be used to declare both local and global variables.</p>
-        <p>By simply assigning it a value. For example,</p>
-        <code>x = 42.</code>
-        <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
-        <p>With the keyword let. For example,</p>
-        <code>let y = 13.</code>
-        <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
+      <!-- HTML/CSS Section -->
+      <section class="main-section" id="HTML/CSS">
+        <header>HTML/CSS</header>
+        <ul>
+          <li>
+            <h3>
+              <a
+                href="https://dev.to/afif/build-your-responsive-website-without-media-query-omj"
+                target="_blank"
+                >dev.to/...</a
+              >
+            </h3>
+            <p>
+              - Article on tricks for building responsive websites without media
+              queries.<br />
+            </p>
+          </li>
+        </ul>
       </section>
-      <section class="main-section" id="Variable_scope">
-        <header>Variable scope</header>
-        <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
-        <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
-        <code>if (true) { var x = 5; } console.log(x); // 5</code>
-        <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-        <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
-          <br>
-defined</code>
+      <!-- Scripting/Coding Section -->
+      <section class="main-section" id="Scripting/coding">
+        <header>Scripting/Coding</header>
+        <ul>
+          <li>
+            <h3>
+              <a
+                href="https://github.com/sorrycc/awesome-javascript#readme"
+                target="_blank"
+                >Awesome JavaScript</a
+              >
+            </h3>
+            <p>
+              - A list of (browser side) JavaScript libraries, frameworks, and
+              more.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://playcode.io/" target="_blank">Playcode.io</a>
+            </h3>
+            <p>
+              - quickly test out small snipets of code for easy testing and
+              realtime feedback.<br />
+            </p>
+          </li>
+          <!-- li for codepen.io -->
+          <li>
+            <h3>
+              <a href="https://codepen.io/" target="_blank">Codepen.io</a>
+            </h3>
+            <p>
+              - Create, share, and tweak small to medium sized code snippets.<br />
+              - Allows for code snippets to be saved for later.
+            </p>
+          </li>
+        </ul>
       </section>
-    
-    
-    <footer>
+      <!-- Other Section -->
+      <section class="main-section" id="Other">
+        <header>Other</header>
+        <ul>
+          <li>
+            <h3>
+              <a
+                href="https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/"
+                target="_blank"
+                >MixedAnalytics.com/blog/list-actually-free-open-no-auth-needed-apis</a
+              >
+            </h3>
+            <p>- A list of free APIs that are actually free and open.<br /></p>
+          </li>
+          <li>
+            <h3><a href="http://readme.so/" target="_blank">Readme.so</a></h3>
+            <p>
+              - Easily and intuitively create readme files for your GitHub
+              repositories without knowing Markdown.
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a
+                href="https://maenterawasi.com/articles/creating-a-simple-web-scraper-using-nodejs-axios-and-cheerio/"
+                target="_blank"
+                >maenterawasi.com/...</a
+              >
+            </h3>
+            <p>
+              - A tutorial on how to create a simple web scraper using NodeJS,
+              Axios, and Cheerio.<br />
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer>
         <p>&copy; 2022 Brandon Mikowski</p>
-    </footer>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
