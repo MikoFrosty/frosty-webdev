@@ -8,7 +8,7 @@ Resources are seperated into categories for easy navigation and quick browsing.
 
 ## Usage/Examples
 
-Visit the website located at github.com/frosty-webdev
+Visit the website located at [https://mikofrosty.github.io/frosty-webdev/](https://mikofrosty.github.io/frosty-webdev/)
 
 
 ## Roadmap
