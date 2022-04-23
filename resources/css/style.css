@@ -127,6 +127,9 @@ body {
     }
   }
   @media only screen and (max-width: 365px) {
+    #navbar {
+      max-height: 310px;
+    }
     #navbar a {
       padding: 10px;
     }
