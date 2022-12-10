@@ -7,11 +7,18 @@
     <title>Frosty's Web Development Resources</title>
     <link rel="stylesheet" href="./resources/css/normalize.css" />
     <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="stylesheet" href="./resources/css/menu.css" />
+    <script src="./resources/javascript/main.js" defer></script>
   </head>
   <body>
     <!-- Navigation -->
     <nav id="navbar">
-      <header>Webdev Categories</header>
+      <header>Frosty's WebDev</header>
+      <div id="menu-icon">
+        <div class="menu-icon-line"></div>
+        <div class="menu-icon-line"></div>
+        <div class="menu-icon-line"></div>
+      </div>
       <ul>
         <li>
           <a class="nav-link" href="#Introduction">Introduction</a>
@@ -35,8 +42,15 @@
           <a class="nav-link" href="#Scripting/coding">Scripting/Coding</a>
         </li>
         <li>
+          <a class="nav-link" href="#Libraries">Libraries</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#API">API</a>
+        </li>
+        <li>
           <a class="nav-link" href="#Other">Other</a>
         </li>
+
       </ul>
     </nav>
     <main id="main-doc">
@@ -226,6 +240,8 @@
             <p>
               - Google's latest design specification standards for how devices
               and apps should look and operate.<br />
+              - Good reference for best practices in creating mobile apps regarding design, UX, & components.<br />
+              - Everything is explained in detail, and there are many examples.<br />
             </p>
           </li>
         </ul>
@@ -308,19 +324,6 @@
         <ul>
           <li>
             <h3>
-              <a
-                href="https://github.com/sorrycc/awesome-javascript#readme"
-                target="_blank"
-                >Awesome JavaScript</a
-              >
-            </h3>
-            <p>
-              - A list of (browser side) JavaScript libraries, frameworks, and
-              more.<br />
-            </p>
-          </li>
-          <li>
-            <h3>
               <a href="https://playcode.io/" target="_blank">Playcode.io</a>
             </h3>
             <p>
@@ -357,9 +360,39 @@
           </li>
         </ul>
       </section>
-      <!-- Other Section -->
-      <section class="main-section" id="Other">
-        <header>Other</header>
+      <!-- Libraries Section -->
+      <section class="main-section" id="Libraries">
+        <header>Libraries</header>
+        <ul>
+          <li>
+            <h3>
+              <a
+                href="https://github.com/sorrycc/awesome-javascript#readme"
+                target="_blank"
+                >Awesome JavaScript</a
+              >
+            </h3>
+            <p>
+              - A list of (browser side) JavaScript libraries, frameworks, and
+              more.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://material-ui.com/" target="_blank"
+                >Material-UI.com</a
+              >
+            </h3>
+            <p>
+              - A React UI framework that implements Google's Material Design
+              standards.<br />
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- API Section -->
+      <section class="main-section" id="API">
+        <header>API</header>
         <ul>
           <li>
             <h3>
@@ -372,13 +405,6 @@
             <p>- A list of free APIs that are actually free and open.<br /></p>
           </li>
           <li>
-            <h3><a href="http://readme.so/" target="_blank">Readme.so</a></h3>
-            <p>
-              - Easily and intuitively create readme files for your GitHub
-              repositories without knowing Markdown.
-            </p>
-          </li>
-          <li>
             <h3>
               <a
                 href="https://maenterawasi.com/articles/creating-a-simple-web-scraper-using-nodejs-axios-and-cheerio/"
@@ -389,6 +415,49 @@
             <p>
               - A tutorial on how to create a simple web scraper using NodeJS,
               Axios, and Cheerio.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://publicapi.dev/" target="_blank"
+                >publicapi.dev</a
+              >
+            </h3>
+            <p>
+              - A list of public APIs that are free to use.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://designer.mocky.io/" target="_blank"
+                >designer.mocky.io</a
+              >
+            </h3>
+            <p>
+              - A tool for creating mock APIs for testing purposes.<br />
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://jsonplaceholder.typicode.com/" target="_blank"
+                >jsonplaceholder.typicode.com</a
+              >
+            </h3>
+            <p>
+              - A quick, free, and easy to use API for fetching fake JSON data for testing purposes.<br />
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- Other Section -->
+      <section class="main-section" id="Other">
+        <header>Other</header>
+        <ul>
+          <li>
+            <h3><a href="http://readme.so/" target="_blank">Readme.so</a></h3>
+            <p>
+              - Easily and intuitively create readme files for your GitHub
+              repositories without knowing Markdown.
             </p>
           </li>
           <li>
@@ -482,17 +551,6 @@
               - Uses Lighthouse to measure and improve the quality of your web apps & sites.<br />
               - Provides a nice breakdown of the performance, accessibility, best practices, and SEO of your site.<br />
               - Worth noting, https://web.dev/lighthouse-seo/ is a great resource for learning about SEO.
-            </p>
-          </li>
-          <li>
-            <h3>
-              <a href="https://material.io/design/" target="_blank"
-                >material.io/design</a
-              >
-            </h3>
-            <p>
-              - Good reference for best practices in creating mobile apps regarding design, UX, & components.<br />
-              - Everything is explained in detail, and there are many examples.<br />
             </p>
           </li>
         </ul>
